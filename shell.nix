@@ -8,6 +8,7 @@ let
 in
   pkgs.mkShell {
     packages = with pkgs; [
+      yt-dlp
       (python.withPackages(p: with p; [
         innertube
       ]))
