@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-ytexpl = "ytex.ytexpl:main"
+yt-exp = "ytex.yt_expl:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
