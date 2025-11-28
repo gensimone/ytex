@@ -1,7 +1,7 @@
 [project]
 name = "ytex"
 version = "0.0.1"
-description = ""
+description = "Scripts for extracting data provided by Google's private InnerTube API. "
 authors = [
     {name = "Simone Gentili",email = "gensimone.git@gmail.com"}
 ]
