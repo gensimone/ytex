@@ -13,9 +13,11 @@ requires-python = ">=3.12,<4.0"
 [project.scripts]
 yt-exp = "yt_ex.yt_exp:main"
 
+[tool.poetry.dependencies]
+innertube = "*"
+
 [tool.poetry.group.dev.dependencies]
 pytest = "*"
-innertube = "*"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
