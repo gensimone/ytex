@@ -6,7 +6,7 @@ version = "4.11.0"
 description = "High-level concurrency and networking framework on top of asyncio or Trio"
 optional = false
 python-versions = ">=3.9"
-groups = ["dev"]
+groups = ["main"]
 files = [
     {file = "anyio-4.11.0-py3-none-any.whl", hash = "sha256:0287e96f4d26d4149305414d4e3bc32f0dcd0862365a4bddea19d7a1ec38c4fc"},
     {file = "anyio-4.11.0.tar.gz", hash = "sha256:82a8d0b81e318cc5ce71a5f1f8b5c4e63619620b63141ef8c995fa0db95a57c4"},
@@ -26,7 +26,7 @@ version = "2025.11.12"
 description = "Python package for providing Mozilla's CA Bundle."
 optional = false
 python-versions = ">=3.7"
-groups = ["dev"]
+groups = ["main"]
 files = [
     {file = "certifi-2025.11.12-py3-none-any.whl", hash = "sha256:97de8790030bbd5c2d96b7ec782fc2f7820ef8dba6db909ccf95449f2d062d4b"},
     {file = "certifi-2025.11.12.tar.gz", hash = "sha256:d8ab5478f2ecd78af242878415affce761ca6bc54a22a27e026d7c25357c3316"},
@@ -51,7 +51,7 @@ version = "0.14.0"
 description = "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
 optional = false
 python-versions = ">=3.7"
-groups = ["dev"]
+groups = ["main"]
 files = [
     {file = "h11-0.14.0-py3-none-any.whl", hash = "sha256:e3fe4ac4b851c468cc8363d500db52c2ead036020723024a109d37346efaa761"},
     {file = "h11-0.14.0.tar.gz", hash = "sha256:8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d"},
@@ -63,7 +63,7 @@ version = "0.16.3"
 description = "A minimal low-level HTTP client."
 optional = false
 python-versions = ">=3.7"
-groups = ["dev"]
+groups = ["main"]
 files = [
     {file = "httpcore-0.16.3-py3-none-any.whl", hash = "sha256:da1fb708784a938aa084bde4feb8317056c55037247c787bd7e19eb2c2949dc0"},
     {file = "httpcore-0.16.3.tar.gz", hash = "sha256:c5d6f04e2fc530f39e0c077e6a30caa53f1451096120f1f38b954afd0b17c0cb"},
@@ -85,7 +85,7 @@ version = "0.23.3"
 description = "The next generation HTTP client."
 optional = false
 python-versions = ">=3.7"
-groups = ["dev"]
+groups = ["main"]
 files = [
     {file = "httpx-0.23.3-py3-none-any.whl", hash = "sha256:a211fcce9b1254ea24f0cd6af9869b3d29aba40154e947d2a07bb499b3e310d6"},
     {file = "httpx-0.23.3.tar.gz", hash = "sha256:9818458eb565bb54898ccb9b8b251a28785dd4a55afbc23d0eb410754fe7d0f9"},
@@ -109,7 +109,7 @@ version = "3.11"
 description = "Internationalized Domain Names in Applications (IDNA)"
 optional = false
 python-versions = ">=3.8"
-groups = ["dev"]
+groups = ["main"]
 files = [
     {file = "idna-3.11-py3-none-any.whl", hash = "sha256:771a87f49d9defaf64091e6e6fe9c18d4833f140bd19464795bc32d966ca37ea"},
     {file = "idna-3.11.tar.gz", hash = "sha256:795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902"},
@@ -136,7 +136,7 @@ version = "2.1.19"
 description = "Python Client for Google's Private InnerTube API. Works with Youtube, YouTube Music and more!"
 optional = false
 python-versions = "<4.0,>=3.8"
-groups = ["dev"]
+groups = ["main"]
 files = [
     {file = "innertube-2.1.19-py3-none-any.whl", hash = "sha256:5c8d90a49e9a3f86c1820b137ff5a3ffb9324214da01f42016acd91767281317"},
     {file = "innertube-2.1.19.tar.gz", hash = "sha256:4fcfb2af13a4e602e4fa4a3c79855dbad4c4e7c389c9a75daa3876c552ca90e8"},
@@ -152,7 +152,7 @@ version = "0.1.8"
 description = "Middleware for every occasion"
 optional = false
 python-versions = ">=3.8,<4.0"
-groups = ["dev"]
+groups = ["main"]
 files = [
     {file = "mediate-0.1.8-py3-none-any.whl", hash = "sha256:9863947fc0e98774bf57b10b6218f482cad8f1abc84618d7ca9e9760fcd31fab"},
     {file = "mediate-0.1.8.tar.gz", hash = "sha256:b92f618a89226281dea1e7115e5341fa3ecb9db6dd00772805fcb9d0ba214171"},
@@ -232,7 +232,7 @@ version = "1.5.0"
 description = "Validating URI References per RFC 3986"
 optional = false
 python-versions = "*"
-groups = ["dev"]
+groups = ["main"]
 files = [
     {file = "rfc3986-1.5.0-py2.py3-none-any.whl", hash = "sha256:a86d6e1f5b1dc238b218b012df0aa79409667bb209e58da56d0b94704e712a97"},
     {file = "rfc3986-1.5.0.tar.gz", hash = "sha256:270aaf10d87d0d4e095063c65bf3ddbc6ee3d0b226328ce21e036f946e421835"},
@@ -250,7 +250,7 @@ version = "0.1.11"
 description = "Python object registers. Keep track of your classes, functions and data."
 optional = false
 python-versions = ">=3.8,<4.0"
-groups = ["dev"]
+groups = ["main"]
 files = [
     {file = "roster-0.1.11-py3-none-any.whl", hash = "sha256:4703c3ff53b694452ff727e7b9e6e74616dd6c2df3b9de5c5dc9151936a315ba"},
     {file = "roster-0.1.11.tar.gz", hash = "sha256:467c44075d554b387c52cddf025419c46af4daa74c6d900a057d6ad6fdec5f4d"},
@@ -262,7 +262,7 @@ version = "1.3.1"
 description = "Sniff out which async library your code is running under"
 optional = false
 python-versions = ">=3.7"
-groups = ["dev"]
+groups = ["main"]
 files = [
     {file = "sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2"},
     {file = "sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc"},
@@ -274,7 +274,7 @@ version = "4.15.0"
 description = "Backported and Experimental Type Hints for Python 3.9+"
 optional = false
 python-versions = ">=3.9"
-groups = ["dev"]
+groups = ["main"]
 markers = "python_version == \"3.12\""
 files = [
     {file = "typing_extensions-4.15.0-py3-none-any.whl", hash = "sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548"},
@@ -284,4 +284,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<4.0"
-content-hash = "0cf516d1523e7a8d63887d276f375cdd3a914e9c367bd34cd7dba4b242e680b3"
+content-hash = "2f029b5ed763b620b49c3772916a0a19fea7f60a3c3b81cc5c1fcc43588edb06"
