@@ -9,12 +9,13 @@ license = "GNU General Public License v3 (GPLv3)"
 license-files = [ "LICENSE" ]
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
-dependencies = [
-  "innertube"
-]
 
 [project.scripts]
 yt-exp = "yt_ex.yt_exp:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+innertube = "*"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
