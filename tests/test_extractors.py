@@ -8,6 +8,9 @@ innertube_client = InnerTube("WEB_REMIX")
 
 def test_get_channel_id() -> None:
     data = innertube_client.search("Tom Waits")
+    print('--- JSON')
+    print(data)
+    print('---')
     channel_id = extractors.get_channel_id(data)
     assert channel_id
 
