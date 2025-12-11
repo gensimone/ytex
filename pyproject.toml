@@ -1,6 +1,6 @@
 [project]
 name = "yt-ex"
-version = "0.0.1"
+version = "0.0.2"
 description = "Scripts for extracting data provided by Google's private InnerTube API. "
 authors = [
     {name = "Simone Gentili",email = "gensimone.git@gmail.com"}
