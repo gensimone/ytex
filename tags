@@ -57,14 +57,14 @@ Playlist	yt_ex/objs.py	/^class Playlist:$/;"	c
 Usage	README.md	/^## Usage$/;"	s	chapter:yt-ex (YouTube Extractors)
 Video	yt_ex/objs.py	/^class Video:$/;"	c
 addopts	pytest.ini	/^addopts = -v$/;"	k	section:pytest
-ex	yt_ex/yt_exp.py	/^from . import extractors as ex$/;"	Y	nameref:unknown:extractors
+ex	yt_ex/yt_ex.py	/^from yt_ex import extractors as ex$/;"	Y	nameref:unknown:extractors
 get_channel_id	yt_ex/extractors.py	/^def get_channel_id(data: dict) -> str:$/;"	f	typeref:typename:str
-get_parser	yt_ex/yt_exp.py	/^def get_parser() -> ArgumentParser:$/;"	f	typeref:typename:ArgumentParser
+get_parser	yt_ex/yt_ex.py	/^def get_parser() -> ArgumentParser:$/;"	f	typeref:typename:ArgumentParser
 get_playlists	yt_ex/extractors.py	/^def get_playlists(data: dict) -> list[Playlist]:$/;"	f	typeref:typename:list[Playlist]
 get_search_suggestions	yt_ex/extractors.py	/^def get_search_suggestions(data: dict) -> list[str]:$/;"	f	typeref:typename:list[str]
 get_videos	yt_ex/extractors.py	/^def get_videos(data: dict) -> list[Video]:$/;"	f	typeref:typename:list[Video]
 innertube_client	tests/test_extractors.py	/^innertube_client = InnerTube("WEB_REMIX")$/;"	v
-main	yt_ex/yt_exp.py	/^def main() -> None:$/;"	f	typeref:typename:None
+main	yt_ex/yt_ex.py	/^def main() -> None:$/;"	f	typeref:typename:None
 pytest	pytest.ini	/^[pytest]$/;"	s
 pytest cache directory	.pytest_cache/README.md	/^# pytest cache directory #$/;"	c
 test_get_channel_id	tests/test_extractors.py	/^def test_get_channel_id() -> None:$/;"	f	typeref:typename:None
