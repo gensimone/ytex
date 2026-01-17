@@ -23,7 +23,7 @@ def main() -> None:
     try:
         channel_id = ex.get_channel_id(response)
     except (KeyError, IndexError):
-        print(f'no results\n')
+        print(f'no results\n', file=sys.stderr)
         sys.exit(1)
 
     response = innertube_client.browse(f"MPAD{channel_id}")
